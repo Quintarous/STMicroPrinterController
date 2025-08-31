@@ -1,2 +1,2 @@
 # STMicroPrinterController
-A hardware abstraction layer (HAL) for the ST-P398C ascii printer.
+A hardware abstraction layer (HAL) for the ST-P398C ascii printer. This is Essentially an SDK for the ST-P398C printer that is integrated on the Bleep TS813 POS. The ST-P398C is an extremely basic ascii printer connected via usb. Commands are sent to it in the form of a [ByteArray]. There is some proprietary code used in this as it is just a snippet of the larger integration work I did that never got used. It is a demonstration of some techniques I learned integrating a low level ascii printer with a larger Android app.
